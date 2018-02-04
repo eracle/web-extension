@@ -1,4 +1,4 @@
-# Install web-extion in your browser
+# Install web-extention in your browser
 
 Stable version: **1.1.12**, [Firefox](https://addons.mozilla.org/en-US/firefox/addon/facebook-tracking-exposed/?src=userprofile) & [Chrome](https://chrome.google.com/webstore/detail/facebooktrackingexposed/fnknflppefckhjhecbfigfhlcbmcnmmi). You should read our [Privacy Statement](https://facebook.tracking.exposed/privacy-statement) or look the [latest explanatory video](https://media.ccc.de/v/SHA2017-127-the_quest_for_algorithm_diversity)
 
@@ -28,8 +28,8 @@ npm test
 npm start
 ```
 
-The second line (`npm test`) is optional, but testing is cool and you should do
-it anyway. It's also a nice way to check if the installation succeeded.
+About, the second line (`npm test`): Since keeping tests in sync with the Fb's changes is a costly process, but testing is cool, please use it and feel free to update them. 
+By the way, testing is always a nice way to check if the installation succeeded.
 If npm test fails, don't worry and try npm start nonetheless, it might be due to facebook frequent html structure changes or nodejs extensions incompatibility, please report it back to us if this is the case.  
 
 `npm start` will build the application using `webpack` and watch for changes.
@@ -50,8 +50,7 @@ By running `npm start`, the extension will work in `DEVELOPMENT` mode. This
 means that every time you reload `facebook.com`, the extension will automatically
 reload itself using the `chrome.runtime.reload()` method.
 
-Note that before we were using [Extension
-Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid)
+Note that before we were using [Extension Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid)
 to autoreload your extension every time a build succeeds.
 This dependency is no longer needed.
 
@@ -74,5 +73,4 @@ tidy -i -m -w 0 -utf8 file.html
 ```
 
 # Thanks
-[@sohkai](https://github.com/sohkai) for the amazing [js-reactor
-boilerplate](https://github.com/bigchaindb/js-reactor).
+[@sohkai](https://github.com/sohkai) for the amazing [js-reactor boilerplate](https://github.com/bigchaindb/js-reactor).

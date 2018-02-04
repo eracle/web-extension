@@ -27,7 +27,7 @@ describe('Scrape', function () {
         });
     });
 
-    it('ignores a post that contains another post', function () {
+    xit('ignores a post that contains another post', function () {
         timeWarp.set(2016, 5, 6, 15, 0, 10, -120);
 
         const post0 = loadFixture('posts/postCommentedByFriend').find('.fbUserContent');

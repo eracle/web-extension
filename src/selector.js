@@ -1,5 +1,4 @@
 import config from './config';
-const bo = chrome || browser;
 
 // This code could be used to stop unsupported language, after some internal stats will 
 // spot the presence of an anomalously sequence of 10 private post with 0 public.
