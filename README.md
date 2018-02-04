@@ -50,9 +50,7 @@ By running `npm start`, the extension will work in `DEVELOPMENT` mode. This
 means that every time you reload `facebook.com`, the extension will automatically
 reload itself using the `chrome.runtime.reload()` method.
 
-Note that before we were using [Extension Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid)
-to autoreload your extension every time a build succeeds.
-This dependency is no longer needed.
+Note that before we were using [Extension Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid) to autoreload your extension every time a build succeeds. This dependency is no longer needed.
 
 
 ### Ready to go!

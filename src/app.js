@@ -178,8 +178,9 @@ function processPost (elem) {
         }
     } catch (e) {
         console.log("Unable to scrape post");
-        console.log($e)
+        console.log(e);
         console.log($elem.html());
+        console.log($elem);
     }
 
 }

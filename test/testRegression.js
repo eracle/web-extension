@@ -16,7 +16,16 @@ describe("Regressions", function () {
 
         it(`passes regression test "${path}"`, function () {
             timeWarp.set(2016, 5, 6, 15, 0, 10, -120);
-            expect(scrape, fixture).to.not.throw(TypeError);
+            try {
+                var data = scrape(fixture)
+                console.log(typeof(data));
+            }
+            catch(err) {
+                assert.equal(true, false);
+                console.log(typeof(err));
+            }
+            // console.log(fixture.html());
+            //expect(scrape, fixture).to.not.throw(TypeError);
 
         });
     });
